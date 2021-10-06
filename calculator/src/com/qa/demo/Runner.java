@@ -12,6 +12,7 @@ public class Runner {
 		System.out.println(Calculations.divideNumbers(10, 2));
 		System.out.println(Calculations.raisePowersOf(0, 0));
 		System.out.println(Calculations.raisePowersOfEasy(4, 3));
+		System.out.println(Calculations.modulusNumbers(10, 3));
 	}
 	
 	

@@ -31,10 +31,9 @@ public class Calculations {
 		
 		int result = 1;
 		
-		for(int i=0;i<b;i++) {
+		for(int i=0; i<b; i++) {
 			
 			result *= a;
-			
 			
 		}
 		
@@ -48,6 +47,14 @@ public class Calculations {
 		
 		
 		int result = (int) Math.pow(4, 3);
+		
+		return result; 
+	}
+	
+	public static int modulusNumbers(int a, int b) {
+		
+		
+		int result = a % b;
 		
 		return result; 
 	}

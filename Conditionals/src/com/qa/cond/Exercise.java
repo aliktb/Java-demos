@@ -77,4 +77,52 @@ public class Exercise {
 	System.out.println(result);
     }
 
+    public static void daysOfWeek(int numberOfWeek) {
+
+	String Day = "What day is it?";
+
+	switch (numberOfWeek) {
+
+	case 1:
+	    Day = "Monday";
+	    break;
+
+	case 2:
+	    Day = "Tuesday";
+	    break;
+	    
+	case 3:
+	    Day = "Wednesday";
+	    break;
+
+	case 4:
+	    Day = "Thursday";
+	    break;
+	    
+	case 5:
+	    Day = "Friday";
+	    break;
+
+	case 6:
+	    Day = "Saturday";
+	    break;
+	    
+	case 7:
+	    Day = "Sunday";
+	    break;
+	    
+	default:
+	    Day = "Sorry, you didn't input a number between 1 and 7";
+
+	}
+	
+	
+	if(numberOfWeek >= 1 && numberOfWeek <=7 ) {
+	System.out.println("The day is " + Day);
+	}
+	else {
+	    System.out.println(Day);
+	}
+    }
+
 }

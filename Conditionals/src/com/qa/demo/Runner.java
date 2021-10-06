@@ -13,5 +13,8 @@ public class Runner {
 		System.out.println("Blackjack:");
 		Exercise.blackJack(21, 19);
 
+		
+		
+		Exercise.daysOfWeek(6);
 	}
 }
